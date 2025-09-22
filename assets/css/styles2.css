@@ -1,0 +1,47 @@
+.work__video-container {
+    position: relative;
+    width: 100%; /* Adjust width as needed */
+    padding-bottom: 75%; /* Aspect ratio: 16:9 (adjust as needed) */
+    overflow: hidden;
+}
+
+.work__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure video covers the container */
+}
+
+.skills__icon {
+    width: 20px; /* Adjust based on your preference */
+    height: 20px; /* Adjust based on your preference */
+    object-fit: contain; /* Ensure the image fits within the specified dimensions */
+    margin-right: 10px; /* Add spacing between icon and text */
+}
+/* Define square container with 16:9 aspect ratio (horizontal rectangle) */
+.square-container {
+    position: relative;
+    width: 100%; /* Adjust width as needed */
+    padding-top: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100%) */
+    overflow: hidden;
+}
+
+
+/* Style for the video container */
+.video-container {
+    width: 100%; /* Set the width to 100% of the parent container */
+    max-width: 800px; /* Set a maximum width for the container */
+    margin: 0 auto 80px; /* Center the container horizontally */
+}
+
+/* Style for the video element within the container */
+.video-container video {
+    width: 100%; /* Make the video fill the width of its container */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Ensure the video is displayed as a block element */
+}
+
+
+
