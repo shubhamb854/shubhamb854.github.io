@@ -1,0 +1,31 @@
+/* Responsive video container */
+.work__video-container {
+    position: relative;
+    width: 100%; /* Adjust width as needed */
+    padding-bottom: 56.25%; /* Aspect ratio: 16:9 (adjust as needed) */
+    overflow: hidden;
+}
+
+.work__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure video covers the container */
+}
+
+/* Optional: Media query for responsiveness on smaller screens */
+@media screen and (max-width: 768px) {
+    .work__video-container {
+        padding-bottom: 75%; /* Adjust aspect ratio for smaller screens if needed */
+    }
+}
+
+.skills__icon {
+    width: 40px; /* Adjust based on your preference */
+    height: 40px; /* Adjust based on your preference */
+    object-fit: contain; /* Ensure the image fits within the specified dimensions */
+    margin-right: 10px; /* Add spacing between icon and text */
+}
+
